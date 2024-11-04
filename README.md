@@ -1,6 +1,7 @@
 # 📥✨ YouTube Video Downloader ✨📥  
+
 <p align="center">
-    <img src="/main/yt-downloader-logo.ico" alt="YouTube Video Downloader Icon" width="100" height="100"/>
+    <img src="yt-downloader-logo.ico" alt="YouTube Video Downloader Logo" />
 </p>
 
 A standalone desktop application to easily download YouTube videos in MP4 format with great audio quality. Just paste the URL, select your desired resolution, and enjoy your video offline in seconds!
