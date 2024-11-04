@@ -56,7 +56,7 @@ If you prefer, you can generate your own `dist` and `build` folders by building 
 2. **Build the Executable**:
    Run the following command in the root folder of the project:
    ```bash
-   pyinstaller --onefile --windowed yt-downloader-exp.py
+   pyinstaller --onefile --windowed yt-downloader.py
    ```
    This will create a `dist` folder with the executable file inside.
 
