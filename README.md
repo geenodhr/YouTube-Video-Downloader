@@ -1,6 +1,6 @@
 # 📥✨ YouTube Video Downloader ✨📥  
 <p align="center">
-    <img src="/yt-downloader-logo.ico" alt="YouTube Video Downloader Icon" width="100" height="100"/>
+    <img src="/main/yt-downloader-logo.ico" alt="YouTube Video Downloader Icon" width="100" height="100"/>
 </p>
 
 A standalone desktop application to easily download YouTube videos in MP4 format with great audio quality. Just paste the URL, select your desired resolution, and enjoy your video offline in seconds!
@@ -10,8 +10,6 @@ A standalone desktop application to easily download YouTube videos in MP4 format
 ## 📜 Description
 
 YouTube Video Downloader is a simple, user-friendly tool designed to download YouTube videos with ease. Whether you want to save your favorite content for offline access, watch videos without ads, or simply keep a local copy of content, this application offers an intuitive way to make that happen. Built with Python, it provides a smooth experience by integrating a thumbnail preview, resolution selection, and download progress tracking—all in a sleek GUI.
-
-This project is aimed at continual improvement, and future versions will bring even more features and a refined interface.
 
 ---
 
@@ -36,6 +34,35 @@ The video is downloaded in MP4 format with excellent audio quality, ready for of
 - **Quality Selection**: Choose from available resolutions.
 - **MP4 Format**: Downloads are saved in MP4 with high audio fidelity.
 - **Download Progress**: Progress bar updates with download status.
+
+---
+
+## 🖥️ Running the Application
+
+You can run this application in two ways:
+
+### Option 1: Using the Pre-Built Executable
+1. Download the executable file: **`YT Video Downloader.exe`** from the `dist` folder or the [Releases](https://github.com/username/repository/releases) section on GitHub.
+2. Run `YT Video Downloader.exe` by double-clicking it.
+3. Follow the on-screen instructions to download videos as described above.
+
+### Option 2: Building from Source with PyInstaller
+If you prefer, you can generate your own `dist` and `build` folders by building the executable with `pyinstaller`.
+
+1. **Install PyInstaller**:
+   ```bash
+   pip install pyinstaller
+   ```
+2. **Build the Executable**:
+   Run the following command in the root folder of the project:
+   ```bash
+   pyinstaller --onefile --windowed yt-downloader-exp.py
+   ```
+   This will create a `dist` folder with the executable file inside.
+
+3. **Run the Application**:
+   - Navigate to the `dist` folder, where you’ll find the generated executable (`YT Video Downloader.exe`).
+   - Run the application by double-clicking the executable.
 
 ---
 
