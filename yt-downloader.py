@@ -101,7 +101,7 @@ class VideoDownloaderApp:
     def select_destination(self):
         self.download_directory = filedialog.askdirectory()
         if self.download_directory:
-            self.dest_label.config(text="Directory set to" + self.download_directory)
+            self.dest_label.config(text="Directory set to " + self.download_directory)
 
     def download_video(self):
         if not self.video_url.get() or not self.download_directory:
